@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Tooltip</title>
+    <style>
+        div{
+            width: 300px;
+            height: 500px;
+            display: inline-block;
+            border: 1px solid #900;
+            /*margin: 5px;*/
+        }
+        .tooltip{
+            width: 15px;
+            height: 15px;
+            /*position: absolute;*/ 
+            /*right: 5px;
+            top: 5px;*/
+            background-color: burlywood;
+            border: groove 3px darkmagenta;
+            text-align: center;
+            cursor: help;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div><div class="tooltip" data-help="Ты пидорас">?</div></div>
+    <div><div class="tooltip">x</div></div>
+    <div><div class="tooltip" data-help="Ты хуесос"></div></div>
+</body>
+</html>
